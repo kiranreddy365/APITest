@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1122" started-at="2019-11-25T15:51:31 IST" finished-at="2019-11-25T15:51:32 IST">
+  <suite name="Suite" duration-ms="2052" started-at="2019-12-31T15:25:19 IST" finished-at="2019-12-31T15:25:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1122" started-at="2019-11-25T15:51:31 IST" finished-at="2019-11-25T15:51:32 IST">
+    <test name="Test" duration-ms="2052" started-at="2019-12-31T15:25:19 IST" finished-at="2019-12-31T15:25:21 IST">
       <class name="api_pkg.APITestAdv">
-        <test-method status="PASS" signature="setConn()[pri:0, instance:api_pkg.APITestAdv@72b6cbcc]" name="setConn" is-config="true" duration-ms="429" started-at="2019-11-25T15:51:31 IST" finished-at="2019-11-25T15:51:31 IST">
+        <test-method status="PASS" signature="setConn()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="setConn" is-config="true" duration-ms="558" started-at="2019-12-31T15:25:19 IST" finished-at="2019-12-31T15:25:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setConn -->
-        <test-method status="PASS" signature="TestUnmarshallGeneric()[pri:0, instance:api_pkg.APITestAdv@72b6cbcc]" name="TestUnmarshallGeneric" duration-ms="662" started-at="2019-11-25T15:51:31 IST" finished-at="2019-11-25T15:51:32 IST">
+        <test-method status="PASS" signature="GetTest()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="GetTest" duration-ms="546" started-at="2019-12-31T15:25:19 IST" finished-at="2019-12-31T15:25:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTest -->
+        <test-method status="PASS" signature="closeConn()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="closeConn" is-config="true" duration-ms="1" started-at="2019-12-31T15:25:20 IST" finished-at="2019-12-31T15:25:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConn -->
+        <test-method status="PASS" signature="setConn()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="setConn" is-config="true" duration-ms="5" started-at="2019-12-31T15:25:20 IST" finished-at="2019-12-31T15:25:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConn -->
+        <test-method status="PASS" signature="TestUnmarshall()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="TestUnmarshall" duration-ms="590" started-at="2019-12-31T15:25:20 IST" finished-at="2019-12-31T15:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUnmarshall -->
+        <test-method status="PASS" signature="closeConn()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="closeConn" is-config="true" duration-ms="1" started-at="2019-12-31T15:25:21 IST" finished-at="2019-12-31T15:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConn -->
+        <test-method status="PASS" signature="setConn()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="setConn" is-config="true" duration-ms="4" started-at="2019-12-31T15:25:21 IST" finished-at="2019-12-31T15:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConn -->
+        <test-method status="PASS" signature="TestUnmarshallGeneric()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="TestUnmarshallGeneric" duration-ms="291" started-at="2019-12-31T15:25:21 IST" finished-at="2019-12-31T15:25:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestUnmarshallGeneric -->
-        <test-method status="PASS" signature="closeConn()[pri:0, instance:api_pkg.APITestAdv@72b6cbcc]" name="closeConn" is-config="true" duration-ms="1" started-at="2019-11-25T15:51:32 IST" finished-at="2019-11-25T15:51:32 IST">
+        <test-method status="PASS" signature="closeConn()[pri:0, instance:api_pkg.APITestAdv@5a8806ef]" name="closeConn" is-config="true" duration-ms="1" started-at="2019-12-31T15:25:21 IST" finished-at="2019-12-31T15:25:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeConn -->
       </class> <!-- api_pkg.APITestAdv -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
