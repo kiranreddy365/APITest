@@ -22,7 +22,6 @@ public class APITestAdv {
 
 	WebDriver driver;
 	String url="https://api.github.com/";
-	String browser="chrome";
 	CloseableHttpClient client;
 	CloseableHttpResponse response;
 
@@ -32,7 +31,7 @@ public class APITestAdv {
 		client=HttpClientBuilder.create().build();
 	}
 
-	//@Test
+	@Test
 	public void GetTest() throws ClientProtocolException, IOException
 	{
 		HttpGet httpGet=new HttpGet(url+"users/kiranreddy365");
@@ -42,7 +41,7 @@ public class APITestAdv {
 		System.out.println(jsonObj.get("id"));
 	}
 
-	//@Test
+	@Test
 	public void TestUnmarshall() throws ClientProtocolException, IOException
 	{
 		HttpGet httpGet=new HttpGet(url+"users/kiranreddy365");
